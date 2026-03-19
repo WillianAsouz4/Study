@@ -9,21 +9,22 @@ Repositório pessoal de estudos, organizado por linguagem de programação.
 ```
 Study/
 ├── Java/
-│   ├── fundamentos/     # Sintaxe, funções, demos básicos
-│   └── exercicios/      # Exercícios e tarefas práticas
+│   ├── fundamentos/          # Sintaxe, funções e exemplos básicos
+│   └── exercicios/           # Exercícios e tarefas práticas
 │
 ├── JavaScript/
-│   ├── API-RESTFul/     # API REST com Node.js
-│   ├── Express-server/  # Servidor com Express + EJS
-│   ├── project-crud/    # CRUD completo com autenticação
-│   └── Teste_servidor/  # Servidor de testes (client/server)
+│   ├── api-rest/             # API REST com Node.js e Express
+│   ├── servidor-express/     # Servidor com Express + EJS e views
+│   ├── crud/                 # CRUD completo com autenticação
+│   └── teste-servidor/       # Teste de comunicação client/server
 │
 └── Python/
-    ├── Estudos py/      # Fundamentos: variáveis, listas, POO, etc.
-    ├── contador_carbo/  # App de contagem de carboidratos (CLI)
-    ├── gligocuide/      # App mobile React Native + backend Flask
-    ├── script-de-e-mail/# Script de envio de e-mails
-    └── sserver/         # API Flask com autenticação JWT
+    ├── fundamentos/          # Curso Rocketseat: Python, Flask, POO
+    └── projetos/
+        ├── contador-carboidratos/  # App CLI de registro de refeições
+        ├── glicoguide/             # App mobile React Native (Expo)
+        ├── glicoguide-api/         # API Flask com JWT e GPT-4o
+        └── script-email/           # Script de envio de e-mails com anexo
 ```
 
 ---
@@ -32,5 +33,5 @@ Study/
 
 - **Java** — Fundamentos da linguagem
 - **JavaScript / Node.js** — Express, REST APIs, CRUD
-- **Python** — Scripts, Flask, automações
+- **Python** — Scripts, Flask, SQLAlchemy
 - **React Native / Expo** — App mobile (GlicoGuide)
