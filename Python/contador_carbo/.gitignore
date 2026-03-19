@@ -1,0 +1,22 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env/
+
+# Database and data files
+data/
+*.db
+
+# Relatórios e arquivos temporários
+reports/
+*.xlsx
+
+# Configurações do VS Code
+.vscode/
+
+# Arquivos do sistema
+.DS_Store

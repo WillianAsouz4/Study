@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <%- include('partials/head.ejs')%>
+  </head>
+  <body>
+    <%- include('partials/header.ejs')%>
+
+    <section class="container">
+      <%- include('partials/navbar.ejs')%>
+
+      <article class="content">
+        <h1>postes</h1>
+
+        <div class="posts">
+          <% posts.forEach((item) => { %>
+          <div class="post">
+            <h3><%= item.title%></h3>
+            <p><%= item.text%></p>
+
+            <% if(item.star) { %> <% for( let index = 0; index < item.star;
+            index++ ) { %>
+            <img
+              src="https://t3.ftcdn.net/jpg/07/97/17/22/360_F_797172246_yEgNawehDpJ5IZNmDnovtdj9XkLCocbQ.jpg"
+              width="20px"
+            />
+            <% } %> <% } %>
+          </div>
+          <% }) %>
+        </div>
+      </article>
+    </section>
+
+    <%- include('partials/footer.ejs')%> <%- include('partials/foot.ejs')%>
+  </body>
+</html>
